@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.octousa.sensordiagnostic.MainActivity">
 
-    <com.octousa.sensors.ui.views.SensorsStatusView
+    <ExpandableListView
         android:id="@+id/sensorsStatusView"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
