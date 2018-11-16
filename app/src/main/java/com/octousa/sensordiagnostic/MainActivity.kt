@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
            sensorsStatusView.setData(it)
         }
 
-        sensorManager.checkSensors()
+        //sensorManager.checkSensors()
         //sensorManager.checkSensors( main_activity_layout)
     }
 }
