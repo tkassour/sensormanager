@@ -28,7 +28,7 @@ open class SensorManager(val context: Context) {
 
     var sensors = ArrayList<Sensor>()
 
-    /*Add test commit*/
+
 
     /**
      *  Initialize Sensor Detection
