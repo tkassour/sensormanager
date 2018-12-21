@@ -28,6 +28,8 @@ open class SensorManager(val context: Context) {
 
     var sensors = ArrayList<Sensor>()
 
+    /*Add test commit*/
+
     /**
      *  Initialize Sensor Detection
      *  Must provide sensor type from SensorsConstants class as input to get started
