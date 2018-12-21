@@ -28,8 +28,6 @@ open class SensorManager(val context: Context) {
 
     var sensors = ArrayList<Sensor>()
 
-
-
     /**
      *  Initialize Sensor Detection
      *  Must provide sensor type from SensorsConstants class as input to get started
@@ -51,7 +49,7 @@ open class SensorManager(val context: Context) {
      * This method returns a list of Sensor Object with their current status
      * It can be passed to the SensorsStatusView
      *
-     * @param context Activity/Fragment view context (parent)
+     * @param context Activity/Fragment view context (parent)git b
      * @return List of Sensor Status
      */
     fun getSensorsStatus() : ArrayList<Sensor>{
