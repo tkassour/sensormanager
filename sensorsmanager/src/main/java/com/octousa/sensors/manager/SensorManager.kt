@@ -36,10 +36,10 @@ open class SensorManager(val context: Context) {
      */
     fun init(@Type vararg sensorsList: String){
         if(sensorsList.size > SENSORS_MAX)
-            throw IllegalArgumentException("Invalid number of input argument: Max number of Sensors to check for is $SENSORS_MAX")
+            throw IllegalArgumentException("Invalid number of input arguments: Max number of Sensors to check for is $SENSORS_MAX")
 
         if(sensorsList.isEmpty())
-            throw IllegalArgumentException("Must has at least one Sensor to check for")
+            throw IllegalArgumentException("Must have at least one Sensor to check for")
 
         sensorsList.forEach { sensors.add(Sensor(it, false))}
     }
